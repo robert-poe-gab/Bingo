@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo</title>
+</head>
+<body>
+    <!--<nav>-->
+        <div class="nav-links">
+            <header class="header_cont"><img class="logo" src="pictures/logoBingo1.png" alt="logo"></header>
+            
+            <div class="menu_picture"><img class="gm_picture" src="pictures/bingo_background.jpg" alt="menu_picture"></div>
+            <nav class="navigator">
+                <ul>
+                    <li class="menu"><a class="links" href="play.html">Jugar</a></li>
+                    <li class="menu"><a class="OnLink">Opcions</a></li>
+                    <li class="menu"><a class="links" href="createCard.html">Crear cartron</a></li>
+                    <li class="menu"><a class="links" href="index.html">Menu princiapal</a></li>
+                </ul>
+            </nav>
+                <div class="options">
+                    <form class="insideOptions" action="">
+                        <label for="username">Nom del jugador:</label>
+                        <input type="text" id="username" name="username" placeholder="Introdueix el teu nom"><br><br>
+
+                        <label for="gameType">Tipus de joc:</label><br>
+                        <select id="gameType" name="gameType">
+                            <option value="soloGame">Sol</option>
+                            <option value="IAGame">VS IA</option>
+                        </select><br><br>
+
+                        <label for="mode">Mode:</label><br>
+                        <select id="mode" name="mode">
+                            <option value="quina">Quina</option>
+                            <option value="grandmom">Iaia</option>
+                            <option value="pro">Pro</option>
+                        </select><br><br>
+
+                        <label for="sound">So:</label>
+                        <input type="checkbox" id="sound" name="sound" checked><br><br>
+
+                        <label for="music">Música teva:</label>
+                        <input type="file" id="music" name="music" accept="audio/*"><br><br>
+
+                        <input class="submitOptions" type="submit" value="Guardar canvis">
+                    </form>
+                    <!--
+                    <ul>
+                        <li class="insideOptions">Nom del jugador</li>                        
+                        <li class="insideOptions">Tipus de joc</li>
+                        <li class="insideOptions">Dificultat</li>
+                        <li class="insideOptions">So</li>
+                        <li class="insideOptions">Musica teva</li>
+                    </ul> 
+                    -->
+                </div>
+            </nav>
+        </div>
+    <main>
+    </main>
+</body>
+</html>
